@@ -37,5 +37,23 @@ group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
 end
 
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+ # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Adds support for Capybara system testing and selenium driver
+  #gem 'capybara', '~> 2.13'
+  #gem 'selenium-webdriver'
+#end
+
+#group :development do
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+ #  enlevé le 3/4/2020 gem 'web-console', '>= 3.3.0'
+ #gem 'rspec-rails', '2.5.0'
+#end
+
+#group :test do
+#	gem 'rspec', '2.5.0'
+#	gem 'webrat', '0.7.1'
+#end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
